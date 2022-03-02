@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <classes>
+  <class name = "com.crm.autodesk.contact.CreateContact"/>
+  <class name = "com.crm.autodesk.contact.CreateContactwithOrganisation"/>
+  <class name = "com.crm.autodesk.organization.CreateContact"/>
+  <class name = "com.crm.autodesk.CreateContactWithOrganization"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

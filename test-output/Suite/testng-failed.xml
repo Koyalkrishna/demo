@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.autodesk.organization.CreateNewOrganizationTest">
+        <methods>
+          <include name="CreateNewOrganizationTest"/>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.organization.CreateNewOrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
